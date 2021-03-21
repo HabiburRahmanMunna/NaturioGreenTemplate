@@ -1,0 +1,176 @@
+/* ========== universal css ========= */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap");
+.font-pac {
+  font-family: "Pacifico", cursive;
+}
+
+.font-pt {
+  font-family: "PT Sans", sans-serif;
+}
+
+.fz-normal {
+  font-size: 16px;
+}
+
+.fz-0 {
+  font-size: 12px;
+}
+
+.fz-1 {
+  font-size: 14px;
+}
+
+.fz-2 {
+  font-size: 20px;
+}
+
+.fz-3 {
+  font-size: 30px;
+}
+
+.fz-4 {
+  font-size: 48px;
+}
+
+.fz-5 {
+  font-size: 82px;
+}
+
+.fz-6 {
+  font-size: 16px;
+}
+
+.text-success, .text-success:hover {
+  color: #86AE34 !important;
+}
+
+.bg-success {
+  background: #679509 !important;
+}
+
+.btn-success {
+  background: #86AE34 !important;
+}
+
+.btn-success:hover {
+  background: #333333;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "|";
+  color: #fff;
+}
+
+/* ========== page customize css ========= */
+header .menubar li.active a, header .menubar li a:hover {
+  color: #679509 !important;
+}
+
+.banner {
+  background: url(images/bg1-1.jpg);
+  background-size: cover;
+}
+
+.feature .fhov .card {
+  position: relative;
+}
+
+.feature .fhov .card:hover::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.product li a.active {
+  background: transparent !important;
+  color: #86AE34 !important;
+}
+
+.product li a {
+  color: #adadad !important;
+}
+
+.product li a:hover {
+  color: #86AE34 !important;
+}
+
+.add {
+  background: url(images/banners2.jpg);
+  /*     background-size: cover; */
+  background-position: center;
+}
+
+.testimonial {
+  background: url(images/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.testimonial img {
+  width: 130px;
+  height: 130px;
+  border: 0;
+  border-radius: 50%;
+}
+
+footer {
+  background: url(images/footer-widgets-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+footer ul li a:hover {
+  color: #86AE34 !important;
+}
+
+/* =============media query============= */
+@media (max-width: 1199.98px) {
+  /* .fz-normal{
+    font-size: 16px;
+}
+
+.fz-0{
+    font-size: 12px;
+}
+.fz-1{
+    font-size: 14px;
+}
+.fz-2{
+    font-size: 20px;
+} 
+ */
+  .fz-1 {
+    font-size: 12px;
+  }
+  .fz-2 {
+    font-size: 18px;
+  }
+  .fz-3 {
+    font-size: 24px;
+  }
+  .fz-4 {
+    font-size: 25px;
+  }
+  .fz-5 {
+    font-size: 46px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
